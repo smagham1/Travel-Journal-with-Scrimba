@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header1 {
+  height: 8vh;
+  width: 98vw;
+  max-width: 600px;
+  margin: 7px;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F55A5A;
+  color: white;
+  font-size: 20px;
+}
+
+.earth {
+  font-size: 25px;
+  margin: -6px 5px;
+}
+
+.travelPhotos {
+  margin: 10px 20px;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.flexContainer {
+  display: flex;
+  width: 100vw;
+  max-width: 600px;
+  margin-top: 30px;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.country {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.mapsLink {
+color: #918E9B;
+}
+
+.title {
+font-weight: bold;
+font-size: 25px;
+margin: 0;
+}
+
+.date {
+font-weight: bold;
+}
+
+.pin {
+fill: #F55A5A;
+margin-right: 2px;
+}
+
+.description {
+  margin-right: 20px;
+}
+
+.footer1 {
+height: 100px;
+width: 98vw;
+max-width: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.insta, .eye, .fb {
+  font-size: 35px;
+  color:#F55A5A;
+  padding-right: 50px;
+}
+
+.eye {
+  padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.instaLink, .eyeLink, .fbLink {
+  color:#F55A5A;
+}
